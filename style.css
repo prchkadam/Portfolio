@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(10, 25, 47);}
+
+  body {
+    margin: 0;}
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 230px;
+    background-color: rgb(10, 25, 47) ;
+    font-size: 17px;
+    color: rgb(136, 146, 176);
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    overflow: auto;}
+
+  .nav-item {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(100, 255, 218);
+    display: block;
+    transition: background 0.2s;}
+
+  .nav-item:hover {
+    background-color: rgb(100, 255, 218);
+    color: white;}
+
+  .main-content {
+    margin-left: 220px; /* same as sidebar width */
+    padding: 30px;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    text-align: right;}
+
+  main {
+    margin-left: 220px; /* same as sidebar width */
+    padding: 30px;
+    background-color: rgb(10, 25, 47);
+    color: rgb(136, 146, 176);
+    min-height: 100vh;
+    font-size: 18px;}
+
+  #name {
+    color: #64ffda !important;
+    font-weight: 400 !important;}
+
+  #divya {
+    color: rgb(204, 214, 246) !important;
+    font-size: 48px;
+    font-weight: bolder ;}
+
+  h2 {
+    color: rgb(204, 214, 246);
+    font-size:32px !important;
+    font-weight: 550 !important;}
+
+  table.contacticons {
+    display: flex;
+    justify-content: flex-end;
+    border-spacing: 30px;
+    height: 62px;}
+
+  .getintouch {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5%;
+    border-spacing: 20px
+  }
+
+  .mail {
+    text-decoration: none;
+    color: rgb(100, 255, 218) ;
+    font-size:larger ;
+  }
