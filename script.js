@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function () { alert("Please view it on laptop or desktop"); });
